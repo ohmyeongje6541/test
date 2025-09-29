@@ -1,15 +1,15 @@
 import React from "react";
 
 export default function OnClick() {
-  function handleClick(event) {
+  function handleClick() {
     alert("클릭");
   }
 
   return (
     <div>
       <button
-        onClick={(event) => {
-          handleClick(event);
+        onClick={() => {
+          handleClick();
         }}
       >
         클릭

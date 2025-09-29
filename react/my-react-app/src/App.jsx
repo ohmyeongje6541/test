@@ -1,15 +1,13 @@
 import React from 'react'
+import Parent from './components/props/Parent'
+import ProfileContainer from './components/PropsExample/ProfileContainer'
 
-import OnClick from './components/EventHandling/OnClick';
-import OnChange from './components/EventHandling/onChange';
 
 
 export default function App() {
   return (
     <div>
-      <OnClick></OnClick>
-      
-     
+      <ProfileContainer></ProfileContainer>
     </div>
   )
 }
