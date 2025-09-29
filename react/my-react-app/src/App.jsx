@@ -1,14 +1,15 @@
 import React from 'react'
-import Interpolation from './components/JSX/Interpolation';
-import MyList from './components/Component/MyList';
-import MyButton from './components/Component/MyButton';
+
+import OnClick from './components/EventHandling/OnClick';
+import OnChange from './components/EventHandling/onChange';
 
 
 export default function App() {
   return (
     <div>
-      <MyList></MyList>
-      <MyButton></MyButton>
+      <OnClick></OnClick>
+      
+     
     </div>
   )
 }
