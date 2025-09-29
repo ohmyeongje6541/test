@@ -1,12 +1,12 @@
 import React from 'react'
-import CardContainer from './components/props-function/CardContainer'
+import FormContainer from './components/propsfunction/FormContainer'
 
 
 
 export default function App() {
   return (
     <div>
-      <CardContainer></CardContainer>
+      <FormContainer></FormContainer>
     </div>
   )
 }
