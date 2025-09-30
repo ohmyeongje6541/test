@@ -1,10 +1,10 @@
 import React from 'react'
-import Parent from './components/PropsChilderen/Parent'
+import Container from './components/condition/container'
 
 export default function App() {
   return (
     <div>
-       <Parent></Parent>
+      <Container></Container>
     </div>
   )
 }
