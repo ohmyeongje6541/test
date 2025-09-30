@@ -1,7 +1,6 @@
 // components/ProductCard/ProductCard.jsx
 
 export default function ProductCard({product}) {
-  const {name, price, description, inStock, rating, tags, image} = product
   return (
     <div className="border rounded-lg p-4 shadow-md w-80">
       <img src={image} alt={name} className="w-full h-48 object-cover rounded mb-4" />

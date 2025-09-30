@@ -29,7 +29,7 @@
 
 1. 브랜치 생성 `git branch <브랜치 명>`
 2. 브랜치 전환 `git switch <브랜치 명>`
-3. 작업
+3. 작업 
 4. `git add`
 5. `git commit -m "커밋 메시지`
 6. 브랜치 전환 `git switch main`
