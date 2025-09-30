@@ -1,12 +1,10 @@
 import React from 'react'
-import FormContainer from './components/propsfunction/FormContainer'
-
-
+import Parent from './components/PropsChilderen/Parent'
 
 export default function App() {
   return (
     <div>
-      <FormContainer></FormContainer>
+       <Parent></Parent>
     </div>
   )
 }
