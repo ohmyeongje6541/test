@@ -1,10 +1,11 @@
 import React from 'react'
-import Carts from './components/Carts/Carts'
+import QuoteContainer from './components/DummyJSON/QuoteContainer'
+
 
 export default function App() {
   return (
     <div>
-      <Carts></Carts>
+      <QuoteContainer></QuoteContainer>
     </div>
   )
 }
