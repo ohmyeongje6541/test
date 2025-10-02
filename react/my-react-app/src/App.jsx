@@ -1,11 +1,11 @@
-import React from 'react'
-import QuoteContainer from './components/DummyJSON/QuoteContainer'
 
+import React from 'react'
+import ProductContainer from './components/ProductSort/ProductContainer'
 
 export default function App() {
   return (
     <div>
-      <QuoteContainer></QuoteContainer>
+      <ProductContainer></ProductContainer>
     </div>
   )
 }
