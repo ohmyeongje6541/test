@@ -56,7 +56,7 @@ export default function Container() {
         <button
           className="bg-blue-500 text-white px-3 py-1 cursor-pointer"
           onClick={() => {
-            onLast();
+            onPrev();
           }}
         >
           이전

@@ -1,8 +1,8 @@
 import React from 'react'
-import ProductContainer from './components/ProductSort/ProductContainer'
+import MovieList from './components/TMDB/MovieList'
 
 export default function App() {
   return (
-    <div><ProductContainer></ProductContainer></div>
+    <div><MovieList></MovieList></div>
   )
 }
