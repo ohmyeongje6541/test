@@ -11,6 +11,7 @@ import Profile from "../pages/RootPages/Profile";
 import AuthHome from "../pages/AuthPages/AuthHome";
 import Login from "../pages/AuthPages/Login";
 import Signup from "../pages/AuthPages/Sinup";
+import ProtectLayout from "../layout/ProtectLayout";
 
 const router = createBrowserRouter([
   {
@@ -28,9 +29,15 @@ const router = createBrowserRouter([
         Component: About,
       },
       {
-        path: "profile",
-        Component: Profile,
-      },
+        Component: ProtectLayout,
+        // 보호할 경로와 컴포넌트 정의
+        children: [
+          {
+            path: "profile",
+            Component: Profile,
+          }
+        ]
+     }
     ],
   },
   {
