@@ -7,6 +7,8 @@ import AuthLayout from "../layout/AuthLayout";
 import Home from "../pages/RootPages/Home";
 import About from "../pages/RootPages/About";
 import Profile from "../pages/RootPages/Profile";
+import PostList from "../pages/RootPages/PostList";
+import PostDetail from "../pages/RootPages/PostDetail";
 
 import AuthHome from "../pages/AuthPages/AuthHome";
 import Login from "../pages/AuthPages/Login";
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: "about",
         Component: About,
+      },
+      {
+        path: "posts",
+        Component: PostList
+      },
+      {
+        path: "posts/:postId",
+        Component: PostDetail,
       },
       {
         Component: ProtectLayout,
